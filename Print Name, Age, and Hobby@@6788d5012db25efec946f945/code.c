@@ -5,8 +5,8 @@ int main()
      char name;
      char hob;
      scanf("%d%s%s",&a,name,hob);
-     printf("Name: %s\n",name)
-     printf("Age: %d\n",a)
+     printf("Name: %s\n",name);
+     printf("Age: %d\n",a);
      printf("Hobby: %s",hob);
      return 0;
 }
