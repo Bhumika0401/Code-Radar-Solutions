@@ -2,11 +2,11 @@
 int main()
 {
      int a ;
-     char* name[50];
-     char* hob[50];
-     scanf("%d%s%s",&a,&name,&hob);
-     printf("Name: %s\n",name);
+     char name[50];
+     char chob[50];
+     scanf("%d%c%c",&a,&name,&hob);
+     printf("Name: %c\n",name);
      printf("Age: %d\n",a);
-     printf("Hobby: %s",hob);
+     printf("Hobby: %c",hob);
      return 0;
 }
