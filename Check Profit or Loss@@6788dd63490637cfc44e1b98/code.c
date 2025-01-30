@@ -7,7 +7,7 @@ int main()
         printf("Profit");
     }
     else if(c == s){
-        printf("No profit");
+        printf("No Profit No Loss");
     }
     else{
         printf("Loss");
