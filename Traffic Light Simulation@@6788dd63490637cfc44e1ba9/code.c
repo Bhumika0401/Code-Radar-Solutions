@@ -3,17 +3,18 @@ int main()
 {
     char l;
     scanf("%c",&l);
-    if (l = 'R'){
+    switch (l) {
+        case 'R':
         printf("Stop");
-    }
-    else if(l = 'G'){
+        break;
+        case 'G':
         printf("Go");
-    }
-    else if(l = 'Y'){
+        break;
+        case 'Y':
         printf("Slow Down");
-    }
-    else {
-        printf("Invalid");
+        break;
+        default:
+        printf("Invalid input");
     }
     return 0;
 
