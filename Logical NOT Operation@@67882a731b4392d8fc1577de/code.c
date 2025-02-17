@@ -7,11 +7,12 @@ int main()
         printf("False");
 
     }
+    else if(a==1){
+        printf("False");
+    }
     else{
         printf("True");
     }
-    if(a==1){
-        printf("False");
-    }
+    
     return 0;
 }
